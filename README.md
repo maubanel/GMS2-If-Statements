@@ -86,6 +86,30 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+    Now what happens if it resolves to `false`?  What if we wanted to do something when the statement resolved to `false`?  We can follow the `if` statement with an `else` statement.  This will only run if the if statement resolves to `false`. 
+		
+    Note: Please be aware that you cannot put anything (except for a comment) between the last bracket from the if statement and the else.  It will not compile.
+
+```
+if (expression)
+{ 
+    //do something...<br>
+}	
+else
+{
+    //do something else...<br>
+}
+```
+
+So lets add a different sentence for an else condition:
+
+```
+else
+    {
+		draw_text(room_width * .5, line_height * 6, "The if statement is false" );<br>
+	}
+```
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
