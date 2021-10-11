@@ -160,13 +160,12 @@ First lets add an age variable so we have something to compare.  Open up **obj_i
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Lets add a second line that checks to see if the person with the age is an adult or not.  We will use `age >= 18` to do this.
 		
 Note: >= 18 is functionally the same as > 17.  The choice is up to you, whatever more clearly expresses your objective.  I assume that to prove you are an adult you are looking for being 18 or over not greater than 17.
-![alt_text](images/.png)
+![Add if statement with comparison operator to check if adult](images/checkAdultScript.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
