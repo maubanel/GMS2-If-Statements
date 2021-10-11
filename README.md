@@ -34,7 +34,7 @@ Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser**
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on **Objects** in the **Asset Browser** and select **Create | Object**.  Call this object `obj_if_statement`.  Press the **Events | Add Events | Draw | Draw** to add a draw event.  We will be drawing text to the scren using a variable.
+Right click on **Objects** in the **Asset Browser** and select **Create | Object**.  Call this object `obj_if_statement`.  Press the **Events | Add Events | Draw | Draw** to add a draw event.  We will be drawing text to the screen using a variable.
 
 ![create new object called obj_if_statement](images/ifstatementobj.gif)
 
@@ -42,13 +42,19 @@ Right click on **Objects** in the **Asset Browser** and select **Create | Object
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add a **Variable Definition | Variable** of type **integer** (an integer is a whole number, non-fractional) called `line_height` set to a **Default** of `22`.
+ 
+![add line spacing variable](images/variableDef.png)
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Lets add the script that we used for [GMS2 Positioning Text](https://github.com/maubanel/GMS2-Positioning-Text). It changes the horizontal text alignment to centering the text (`draw_set_align`) then prints the words **Hello World** to the screen (`draw_text(x, y, "Hello World")`). We then reset the horizontal alignment to left justified to reset it back to its default setting (from `fa_center` to `fa_left`).
+
+![alt_text](images/ScriptPrintingText.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
