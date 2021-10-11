@@ -58,7 +58,7 @@ Press the **Events | Add Events | Draw | Draw** to add a draw event.  So we will
 //Show result of if statement on sixth line<br>
 if (true)
 {
-    &nbsp&nbsp&nbspdraw_text(room_width * .5, line_height * 6, "The if statement is true" );<br>
+    draw_text(room_width * .5, line_height * 6, "The if statement is true" );
 }
 ```
 
