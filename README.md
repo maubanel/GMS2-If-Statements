@@ -192,13 +192,15 @@ Note: If you see **NA** this means the function returns no value, and is definit
 
 The manual also tells you about what arguments you need to pass to the function.  In this case it is an enumerator of the key you want to check.  If our case we will want to check the space key: `vk_space`.  This *function* will return `true` every time the <kbd>space</kbd> button is held down and false if it is not.
 
-![alt_text](images/.png)
+![Add an if statement checking for the space button being pressed](images/ifSpace.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. *Press* the <kbd>space bar</kbd> and let go.  The message should change accordingly.
+
+![If statement running in game checking for the space button being pressed](images/SpaceIf.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
