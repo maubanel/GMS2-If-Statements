@@ -172,7 +172,7 @@ Note: >= 18 is functionally the same as > 17.  The choice is up to you, whatever
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Run the game again by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> Play Button in the top menu bar to launch the game. Since I have age above 18, I get the adult message as *44 is >= to 18*. Since 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Since I have age above 18, I get the adult message as *44 is >= to 18*. Since 
 
 ![Run game with comparison operator](images/adultMessage.png)
 
