@@ -106,7 +106,7 @@ So lets add a different sentence for an else condition:
 ```
 else
 {
-    draw_text(room_width * .5, line_height * 6, "The if statement is false" );<br>
+    draw_text(room_width * .5, line_height * 6, "The if statement is false" );
 }
 ```
 
