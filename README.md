@@ -34,7 +34,7 @@ Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser**
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on **Objects** in the **Asset Browser** and select **Create | Object**.  Call this object `obj_if_statement`.  Press the **Events | Add Events | Draw | Draw** to add a draw event.  We will be drawing text to the screen using a variable.
+Right click on **Objects** in the **Asset Browser** and select **Create | Object**.  Call this object `obj_if_statement`.  
 
 ![create new object called obj_if_statement](images/ifstatementobj.gif)
 
@@ -52,7 +52,15 @@ Add a **Variable Definition | Variable** of type **integer** (an integer is a wh
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets add the script that we used for [GMS2 Positioning Text](https://github.com/maubanel/GMS2-Positioning-Text). It changes the horizontal text alignment to centering the text (`draw_set_align`) then prints the words **Hello World** to the screen (`draw_text(x, y, "Hello World")`). We then reset the horizontal alignment to left justified to reset it back to its default setting (from `fa_center` to `fa_left`).
+Press the **Events | Add Events | Draw | Draw** to add a draw event.  So we will now add a script including a condition statement.  As an **expression** we will just use `true` (1).  `True` always resolves to **true**.  We use *curly braces* as we might want to do multiple things based on that `if` statement.  It will run all lines in-between the curly braces. So we can add:
+
+```
+//Show result of if statement on sixth line<br>
+if (true)
+{
+    &nbsp&nbsp&nbspdraw_text(room_width * .5, line_height * 6, "The if statement is true" );<br>
+}
+```
 
 ![alt_text](images/ScriptPrintingText.png)
 
