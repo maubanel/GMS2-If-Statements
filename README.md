@@ -52,7 +52,9 @@ Add a **Variable Definition | Variable** of type **integer** (an integer is a wh
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **Events | Add Events | Draw | Draw** to add a draw event.  So we will now add a script including a condition statement.  As an **expression** we will just use `true` (1).  `True` always resolves to **true**.  We use *curly braces* as we might want to do multiple things based on that `if` statement.  It will run all lines in-between the curly braces. So we can add:
+Press the **Events | Add Events | Draw | Draw** to add a draw event.  So we will now add a script including a condition statement.  As an **expression** we will just use `true` (1).  `True` always resolves to **true**.  We use *curly braces* as we might want to do multiple things based on that `if` statement.  It will run all lines in-between the curly braces. 
+
+We will also align text to center then reset the alignment.
 
 ```
 //Show result of if statement on sixth line<br>
@@ -68,7 +70,9 @@ if (true)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now drag an instance of **obj_if_statement** into the room **rm_ifstatement**
+
+![alt_text](images/addObjIfStatement.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
