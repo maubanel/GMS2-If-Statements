@@ -1,6 +1,6 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### GMS If Statements
+### GMS2 If Statements
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -25,7 +25,7 @@ if (<expression>)
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser** to open up the rooms list.  *Right click* and select **Rename** and call it `rm_ifstatement`. Move it to the top of the list if you have other rooms in this project.
+Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser** to open up the rooms list.  *Right click* and select **Rename** and call it `rm_ifstatement`. Go to **Room Order** and move it to the top of the list if you have other rooms in this project.
 
 ![rename Room1 to rm_ifstatement and move it to the top of the list](images/ifstatement.gif)
 
@@ -34,7 +34,9 @@ Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser**
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Right click on **Objects** in the **Asset Browser** and select **Create | Object**.  Call this object `obj_if_statement`.  Press the **Events | Add Events | Draw | Draw** to add a draw event.  We will be drawing text to the scren using a variable.
+
+![create new object called obj_if_statement](images/ifstatementobj.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
