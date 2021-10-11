@@ -165,17 +165,24 @@ First lets add an age variable so we have something to compare.  Open up **obj_i
 Lets add a second line that checks to see if the person with the age is an adult or not.  We will use `age >= 18` to do this.
 		
 Note: >= 18 is functionally the same as > 17.  The choice is up to you, whatever more clearly expresses your objective.  I assume that to prove you are an adult you are looking for being 18 or over not greater than 17.
+
 ![Add if statement with comparison operator to check if adult](images/checkAdultScript.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Run the game again by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> Play Button in the top menu bar to launch the game. Since I have age above 18, I get the adult message as *44 is >= to 18*. Since 
+
+![Run game with comparison operator](images/adultMessage.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Lets add a eigth line that checks the return value of a function.  Remember that functions can return a variable, some return booleans and are usually used inside if conditional statements.  One of these in GameMaker is **[keyboard_check(key)](gms2tutorials:///ShowHelp?tag=keyboard_check). You do not know what the return value of the function without looking in the manual.  This can be done by typing the function name into the help index tab or clicking the above link.  Look at the return value.
+
+Note: If you see **NA** this means the function returns no value, and is definitely not usable insinde an if statement.
 
 ![alt_text](images/.png)
 
