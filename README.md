@@ -124,25 +124,48 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+To see the false message you need to change the expression in parenthesis after the if statement to false.
+
+![Set if statement to false](images/ifFalse.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the true message no longer displays but is replaced by the false one.
+
+![Run game false message now shows](images/FalseIfStatement.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Lets look at a more practical expression.  We will use a comparison operator. This compares two values and returns a true or false.  The most common are:
+
+`==` (equals): *checks if value on both sides of the operand are the same*
+
+`!=` (not equals): *checks if value on both sides of the operand are different*
+
+`>` (greater than): *checks if value on the right hand operand is greater than the left had side*
+
+`<` (less than): *checks if value on the right hand operand is less than the left had side*
+
+`>=` (greater than or equal): *checks if value on the right hand operand is greater than or equal to the left had side*
+
+`<=` (less than or equal): *checks if value on the right hand operand is less than or equal the left had side*.
+
+First lets add an age variable so we have something to compare.  Open up **obj_if_statement** and press **Variable Definition**.  Press the <kbd>Add</kbd> button and call the new variable `age` with a **Type** of `integer` and **Default** of any age you like, I picked `44`.
+
+![add age integer varialbe set to 44](images/addAge.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Lets add a second line that checks to see if the person with the age is an adult or not.  We will use `age >= 18` to do this.
+		
+Note: >= 18 is functionally the same as > 17.  The choice is up to you, whatever more clearly expresses your objective.  I assume that to prove you are an adult you are looking for being 18 or over not greater than 17.
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
