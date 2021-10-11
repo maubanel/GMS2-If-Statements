@@ -184,11 +184,13 @@ Lets add a eigth line that checks the return value of a function.  Remember that
 
 Note: If you see **NA** this means the function returns no value, and is definitely not usable insinde an if statement.
 
-![alt_text](images/.png)
+![GameMaker manual showing keyboard_check function returning a boolean value](images/ReturnValueOfKeyboardCheck.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+The manual also tells you about what arguments you need to pass to the function.  In this case it is an enumerator of the key you want to check.  If our case we will want to check the space key: `vk_space`.  This *function* will return `true` every time the <kbd>space</kbd> button is held down and false if it is not.
 
 ![alt_text](images/.png)
 
