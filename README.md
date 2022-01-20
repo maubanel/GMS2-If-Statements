@@ -25,7 +25,7 @@ if (<expression>)
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser** to open up the rooms list.  *Right click* and select **Rename** and call it `rm_ifstatement`. Go to **Room Order** and move it to the top of the list if you have other rooms in this project.
+Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser** to open up the rooms list. *Right Click* on **Rooms** and select **Create | Room**.   Call this new room `rm_ifstatement`. Go to **Room Order** and move it to the top of the list if you have other rooms in this project.
 
 ![rename Room1 to rm_ifstatement and move it to the top of the list](images/ifstatement.gif)
 
